@@ -49,7 +49,7 @@ function play() {
 		return;
 	}
 	if (inputNumber.value > 100 || inputNumber.value < 1) {
-		hintShow.textContent = "1~100사이의 값을 입력하세요.";
+		resultShow.textContent = "1~100사이의 값을 입력하세요.";
 
 		mainPicture.src =
 			"http://file3.instiz.net/data/file3/2018/08/14/9/f/7/9f7919bc1d5f201a47e1959e19a91578.gif";
