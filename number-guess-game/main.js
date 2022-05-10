@@ -95,6 +95,8 @@ function play() {
 	chanceShow.textContent = `남은기회:${chance}회`;
 	if (chance < 1) {
 		buttonGo.disabled = true;
+		mainPicture.src =
+			"https://media4.giphy.com/media/dkuZHIQsslFfy/giphy.gif?cid=ecf05e47fiyzttmhluwr4pmodpscxl9etfxl4p7wsdeug368&rid=giphy.gif&ct=g";
 	}
 
 	history.push(inputNumber.value);
