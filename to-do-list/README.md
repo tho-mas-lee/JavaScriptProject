@@ -1,6 +1,6 @@
 # HTML CSS + 자바스크립트를 이용한 두번째 프로젝트<TO DO LIST>  
 아이템을 추가 제거, 그리고 할일을 상태별로 볼수있는 앱입니다. 
-![](https://imgur.com/gallery/iuZ5Zfq)
+![](https://i.imgur.com/kEIJhX9.png)
 * 데모앱 https://to-do-list-thomas.netlify.app/
   
 ## 기능
