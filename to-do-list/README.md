@@ -12,7 +12,7 @@
   * 모바일 버전에서도 확인할 수 있는 반응형 웹이다
   * 처음으로 움직이는 UnderBar를 구현하였다.
 
-##사용한 기술
+## 사용한 기술
   * HTML
   * CSS
   * Vanila Javascript
