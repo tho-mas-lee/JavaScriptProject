@@ -1,42 +1,158 @@
-body{
-    margin:0px;
-    background-image: url("./image/background.avif");
-    background-repeat: no-repeat;
-    background-size: cover;
+/* 배경관련 CSS */
+body {
+	background-image: url("./image/candy.webp");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	font-family: "Source Sans Pro", sans-serif;
+}
+h1 {
+	padding: 5px;
+}
+.container {
+	background-color: white;
+	min-height: 96vh;
+	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+	margin-top: 2vh;
 }
 
-.container{
-    background-color: aliceblue;
-    min-height: 100vh;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+/* ALL NOT DONE DONE 부분 관련 CSS */
+.task-bar {
+	display: flex;
+	border: 1px solid gray;
+	position: relative;
+}
+.task-bar div {
+	padding: 1em;
+	cursor: pointer;
 }
 
-.task-tabs{
-    display: flex;
+#under-bar {
+	padding: 0;
+	height: 4px;
+	background-color: lightpink;
+	width: 0px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	transition: 0.5s;
 }
-.task-tabs div{
-    padding:1em;
+/* 추가되는 할일에 관한 CSS*/
+.task {
+	display: flex;
+	justify-content: space-between;
+	/* border: 1px solid red; */
+}
+.task-text {
+	align-self: center;
+	padding: 1em;
+}
+#task-board {
+	border: 1px solid lightgray;
 }
 
-.task-area{
-    border: 1px solid lightgray;
+.task-done {
+	background-color: lightgray;
 }
-.task-tabs{
-    border: 1px solid lightgray;
-    position:relative;
+.task-done span {
+	text-decoration: line-through;
+}
+/* 디자인 관련  */
+.container h1 span:first-child {
+	color: rgb(252, 181, 172);
+	font-weight: bold;
+}
+.container h1 span:nth-child(2) {
+	color: rgb(137, 150, 224);
+	font-weight: bold;
+}
+.container h1 span:nth-child(3) {
+	color: rgb(247, 119, 132);
+	font-weight: bold;
+}
+/* color: rgb(255, 246, 238); */
+.input-area {
+	position: relative;
+	padding-bottom: 5px;
+}
+#task-input {
+	width: 80%;
 }
 
-#under-line{
-    height: 4px;
-    background-color: blue;
-    position: absolute;
-    width:50px;
-    left:0px;
-    bottom:0px;
-    padding: 0;
+#input-button {
+	background-color: rgb(255, 246, 238);
+	border-radius: 5px;
+	border-color: rgb(202, 207, 235);
+	color: rgb(20, 49, 216);
+	transition: 0.5s;
 }
-.task{
-    display: flex;
-    justify-content: space-between;
-    padding: 1em;
+#input-button:hover {
+	background-color: rgb(202, 207, 235);
+}
+/* 추가되는 task 관한 버튼 디자인 */
+.task-button {
+	background-color: white;
+}
+.task-button button {
+	border: none;
+	padding: 1em;
+	background-color: white;
+	width: 5em;
+	margin: 0;
+	transition: 0.5s;
+}
+.task-button button:first-child:hover {
+	background-color: rgb(190, 236, 198);
+}
+.task-button button:nth-child(2):hover {
+	background-color: rgb(250, 162, 162);
+}
+.fa-check {
+	color: rgb(10, 214, 44);
+	font-weight: bold;
+}
+.fa-trash-can {
+	color: red;
+	font-weight: bold;
+}
+.fa-arrow-rotate-left {
+	color: gray !important;
+	font-weight: bold;
+}
+/* 반응형 */
+
+@media screen and (max-width: 576px) {
+	.container {
+		opacity: 0.8;
+		min-height: 96vh;
+		margin-top: 0vh;
+	}
+	.task-bar {
+		background-color: white;
+		position: relative;
+		font-weight: bold;
+	}
+	#task-board {
+		background-color: white;
+	}
+	.container h1 span:first-child {
+		color: rgb(252, 181, 172);
+		font-weight: bold;
+	}
+	.container h1 span:nth-child(2) {
+		color: rgb(137, 150, 224);
+		font-weight: bold;
+	}
+	.container h1 span:nth-child(3) {
+		color: rgb(247, 119, 132);
+		font-weight: bold;
+	}
+	.top-space {
+		height: 2vh;
+		background-color: rgb(137, 150, 224);
+	}
+	.bottom-space {
+		height: 2vh;
+		background-color: rgb(137, 150, 224);
+	}
 }
