@@ -1,6 +1,6 @@
 #1 HTML CSS + 자바스크립트를 이용한 첫번쨰 프로젝트(Number-Guess-Game)
-https://number-guess-thomas.netlify.app/
-https://i.imgur.com/ZA5HlhG.png
+![](https://i.imgur.com/ZA5HlhG.png)
+https://number-guess-thomas.netlify.app
 ## 기능
 * 컴퓨터는 게임이 시작할때 랜덤한 숫자를 뽑는다
 * 유저는 숫자를 입력할 수 있다
