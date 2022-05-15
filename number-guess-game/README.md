@@ -1,4 +1,4 @@
-#1 HTML CSS + 자바스크립트를 이용한 첫번쨰 프로젝트(Number-Guess-Game)
+# 1 HTML CSS + 자바스크립트를 이용한 첫번쨰 프로젝트(Number-Guess-Game)
 ![](https://i.imgur.com/ZA5HlhG.png)
 https://number-guess-thomas.netlify.app
 ## 기능
