@@ -1,4 +1,4 @@
-# HTML CSS + 자바스크립트를 이용한 두번째 프로젝트<TO DO LIST>  
+# HTML CSS + 자바스크립트를 이용한 세번째 프로젝트<DongYeon's News>  
 아이템을 추가 제거, 그리고 할일을 상태별로 볼수있는 앱입니다. 
 ![](https://i.imgur.com/GM7W0Ss.png)
 * 데모앱 news-thomas.netlify.app
