@@ -1,60 +1,57 @@
-body{
-    font-weight:bolder;
-    font-size: 2vh;
-    height:100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url("https://c.wallhere.com/photos/9a/dc/dark_background_line_surface-643932.jpg!d");
-    
+body {
+	font-weight: bolder;
+	font-size: 2vh;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("https://c.wallhere.com/photos/9a/dc/dark_background_line_surface-643932.jpg!d");
 }
 
-.main_body{
-    height:60%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    background-color: rgba(255, 255, 255, 0.4);
-    border-radius: 10px;
-
+.main_body {
+	height: 60%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	background-color: rgba(255, 255, 255, 0.4);
+	border-radius: 10px;
 }
 
-.title{
-    font-weight: 900;
-    position: absolute;
-    top:0px;
-
+.title {
+	font-weight: 900;
+	position: absolute;
+	top: 0px;
 }
-.main_image{
-    height: 40%;;
+.main_image {
+	height: 40%;
 }
-.btn{
-    font-size:60%;
-    width: 8vw;;
-    margin: 0px 2px;
+.btn {
+	font-size: 60%;
+	width: 8vw;
+	margin: 0px 2px;
 }
-.input-button{
-    display: flex;
-    width:100%;
-    justify-content:center;
+.input-button {
+	display: flex;
+	width: 100%;
+	justify-content: center;
 }
-.mobile{
-    color:white;
-    position: absolute;
-    right: 13px;
-    top:3px;
-    font-size: 8px;
-    display: none;
+.mobile {
+	color: white;
+	position: absolute;
+	right: 13px;
+	top: 3px;
+	font-size: 8px;
+	display: none;
 }
 
 @media screen and (max-width: 48rem) {
-    .mobile{
-        display: block;
-    }
-    .btn{
-        width: 14vw;;
-    }
+	.mobile {
+		display: block;
+	}
+	.btn {
+		width: 14vw;
+	}
 }
