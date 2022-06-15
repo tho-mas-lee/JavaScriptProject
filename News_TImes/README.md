@@ -17,6 +17,7 @@
 ## 사용한 기술
   * HTML
   * CSS
-  * Vanila Javascript
+  * Javascript
+  * https://docs.newscatcherapi.com/ (NewsCatcher API)
   
 
