@@ -1,6 +1,6 @@
 # HTML CSS + 자바스크립트를 이용한 세번째 프로젝트<DongYeon's News>  
 최근 뉴스를 topic keyword별로 받아 볼 수 있는 앱입니다. 
-![]([[https://i.imgur.com/GM7W0Ss.png](https://i.imgur.com/nicBCL0.png)](https://i.imgur.com/GM7W0Ss.png))
+![](https://i.imgur.com/GM7W0Ss.png)
 * 데모앱 https://news-thomas.netlify.app/
   
 ## 기능
