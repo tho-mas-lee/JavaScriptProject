@@ -16,5 +16,6 @@
   * CSS
   * Javascript
   * https://openweathermap.org/api (openweathermap API)
-  * 참고 : https://jsfiddle.net/gg2hqba3/1/ (Google Maps Embed API)
+  * https://developers.google.com/maps/documentation/embed/get-started(Google Maps Embed API)
+  * 참고 : https://jsfiddle.net/gg2hqba3/1/
 
