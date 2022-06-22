@@ -1,0 +1,104 @@
+/* 꼭대기 아이콘 */
+.icon_top {
+	padding: 8px 10px;
+	display: flex;
+	justify-content: space-between;
+}
+.icon_top i {
+	padding: 5px;
+	border-radius: 5px;
+}
+.icon_top i:hover {
+	background-color: skyblue;
+}
+#language {
+	background-color: rgb(191, 237, 255);
+	border: 2px solid skyblue;
+	width: 60px;
+}
+#language:hover {
+	background-color: skyblue;
+}
+/* 제목 */
+.hp_title {
+	display: flex;
+	justify-content: center;
+}
+.hp_title img {
+	width: 430px;
+	min-width: 300px;
+	margin: 0px 20px;
+}
+/* 기상예보 파트 */
+#forecast_board {
+	background-image: url(".//image//배경사진.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+	padding: 10px;
+}
+.row {
+	width: 100%;
+	--bs-gutter-x: 0;
+}
+.weatherIMG {
+	display: flex;
+	justify-content: center;
+	min-height: 230px;
+	position: relative;
+}
+.weatherIMG img {
+	height: 100%;
+}
+.now_position {
+	position: absolute;
+	right: 10px;
+	font-weight: bold;
+}
+.weather_detail {
+	display: flex;
+	padding: 20px 0;
+}
+.google_map {
+	width: 100%;
+}
+.wd-1 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 10px;
+}
+.wd-1 h2 {
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.wd-2 {
+	display: flex;
+	justify-content: space-around;
+}
+.wd-2 * {
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.fa-map-location-dot {
+	display: none;
+}
+@media screen and (max-width: 768px) {
+	.google_map {
+		position: absolute;
+		top: 150px;
+		left: 0px;
+		display: none;
+	}
+	.close_map {
+		position: absolute;
+		top: 160px;
+		right: 20px;
+		font-weight: bold;
+		background: none;
+		border: none;
+	}
+	.fa-map-location-dot {
+		display: inline;
+	}
+}
