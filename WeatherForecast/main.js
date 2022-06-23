@@ -24,10 +24,6 @@ const render = async () => {
 		if (response.status != 200) {
 			throw new Error(data.message);
 		}
-		console.log("url", url);
-		console.log("response", response);
-		console.log("data", data);
-		console.log("언어는?", lang);
 		if (lang == "kr") {
 			weatherHTML = `<div class="row">
 							<div class="col-md-6 weatherIMG">
@@ -100,7 +96,6 @@ const render = async () => {
 						</div>`;
 		}
 	} catch (error) {
-		console.log("에러발생");
 		errorRender(error.message);
 	}
 
@@ -163,7 +158,6 @@ function initAutocomplete() {
 function fillInAddress() {
 	var place = autocomplete.getPlace();
 	nowPosition = document.getElementById("autocomplete").value;
-	console.log(nowPosition);
 	locationField.style.display = "none";
 	searchWeather(place.geometry.location.lat(), place.geometry.location.lng());
 }
