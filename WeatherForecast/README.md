@@ -1,7 +1,7 @@
 # HTML CSS + 자바스크립트를 이용한 네번째 프로젝트<DongYeon's Weather Forecast>  
 원하는 위치의 현재 날씨를 볼 수 있는 앱입니다. 
 ![](https://i.imgur.com/nicBCL0.png)
-* 데모앱 https://weatherforecast-thomas.netlify.app/
+* 데모앱 https://weatherforecast-thomas.netlify.app/  <api key 만료시 실행 되지 않을 수 있음>
   
 ## 기능
   * 유저는 처음에 대한민국의 날씨를 볼 수 있다.
