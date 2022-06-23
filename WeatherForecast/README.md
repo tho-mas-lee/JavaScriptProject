@@ -14,7 +14,7 @@
 ## 사용한 기술
   * HTML
   * CSS
-  * Javascript
+  * Vanila Javascript
   * https://openweathermap.org/api (openweathermap API)
   * https://developers.google.com/maps/documentation/embed/get-started(Google Maps Embed API)
   * 참고 : https://jsfiddle.net/gg2hqba3/1/
